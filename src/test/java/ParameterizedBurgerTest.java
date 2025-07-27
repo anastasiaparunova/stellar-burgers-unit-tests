@@ -37,7 +37,7 @@ public class ParameterizedBurgerTest {
     }
 
         @Test
-        public void shouldCalculateCorrectTotalPrice () throws Exception {
+        public void shouldCalculateCorrectTotalPrice () {
 
             Bun bun = Mockito.mock(Bun.class);
             Mockito.when(bun.getPrice()).thenReturn(bunPrice);
