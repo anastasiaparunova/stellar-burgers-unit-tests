@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Класс с методами по работе с базой данных.
+ * Model of a database for managing burger ingredients and buns.
  */
 public class Database {
 
